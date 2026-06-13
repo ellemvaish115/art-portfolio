@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Works — Vaishnavi Murthy</title>
+<meta name="description" content="The full sketchbook of Vaishnavi Murthy — over a hundred works in ink, gouache, pastel and mixed media, across six chapters of an evolving practice.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="index.html">Vaishnavi Murthy<b>.</b></a>
+  <button class="burger" aria-label="Menu">&#9776;</button>
+  <div class="links">
+    <a href="index.html#journey">The journey</a>
+    <a href="works.html" class="active">Works</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#contact" class="cta">Contact</a>
+  </div>
+</nav>
+
+<header class="works-head">
+  <div class="wrap">
+    <h1 class="reveal">Works</h1>
+    <p class="lead reveal">The whole sketchbook — over a hundred pages in ink, gouache, pastel and mixed media. Filter by chapter, or wander all of it. Click any piece to enlarge.</p>
+  </div>
+</header>
+
+<div class="filters" id="filtersBar">
+  <div class="wrap" id="filters"></div>
+</div>
+
+<section class="gallery">
+  <div class="wrap">
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<footer class="footer" id="contact">
+  <div class="wrap">
+    <div class="reveal">
+      <h2>Say hello.</h2>
+    </div>
+    <div class="contacts reveal">
+      <div><span class="lbl">Email</span><a href="mailto:ellemvaish115@gmail.com">ellemvaish115@gmail.com</a></div>
+      <div><span class="lbl">Instagram</span><a href="https://instagram.com/vaish.exhibit" target="_blank" rel="noopener">@vaish.exhibit</a></div>
+    </div>
+    <div class="base">
+      <span>Vaishnavi Murthy</span>
+      <span>Portfolio · 2026</span>
+    </div>
+  </div>
+</footer>
+
+<div class="lb" id="lb">
+  <button class="x" id="lbClose" aria-label="Close">&times;</button>
+  <button class="nav-btn prev" id="lbPrev" aria-label="Previous">&#8249;</button>
+  <img id="lbImg" src="" alt="Artwork by Vaishnavi Murthy, enlarged">
+  <button class="nav-btn next" id="lbNext" aria-label="Next">&#8250;</button>
+  <div class="count" id="lbCount"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
